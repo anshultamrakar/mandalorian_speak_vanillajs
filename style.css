@@ -15,10 +15,60 @@ html {
 
 body{
     background-color: aliceblue;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
 }
 
+
+.container{
+  margin: 2rem;
+}
+
+
 textarea{
- 
-    margin-left: 2rem;
+   display: block;
+   margin-left: 3rem;
+   padding: 1rem;
+   border: 2px solid black;
+   margin: 2rem;
+   width: 90%;
+   height: 40vh;
+   font-family: 'Nunito', sans-serif;
+   font-size: 1.2rem;
+   font-weight: bold;
+   border-radius: 10px;
+
+}
+
+
+.output{
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 40vh;
+    margin: 2rem;
+    width: 90%;
+
+}
+
+
+button{
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    background-color: #333;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 1rem;
+    height: 55px;
+    width: 146px;
+}
+
+
+.footer{
+    background-color: #333;
+    text-align: center;
+    font-weight: bold;
+    color :#fff;
 }
