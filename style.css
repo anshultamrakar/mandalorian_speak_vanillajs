@@ -40,8 +40,7 @@ textarea{
 
 }
 
-
-.output{
+#output{
     border: 2px solid black;
     padding: 1rem;
     border-radius: 10px;
@@ -52,8 +51,8 @@ textarea{
 }
 
 
+
 button{
-    border: none;
     font-family: 'Nunito', sans-serif;
     color: #fff;
     background-color: #333;
